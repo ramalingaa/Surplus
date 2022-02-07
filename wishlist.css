@@ -88,17 +88,21 @@ a {
 }
 .card-icon {
     position: absolute;
-    top: 0.5rem;
-    right: 1rem;
     color: var(--black-color);
     background-color:var(--white-color);
     padding: 0.5rem;
     border-radius: 999rem;
     cursor: pointer;
 }
-.fa-heart.card-icon {
+.card-icon-wishlist {
+    top: 0.5rem;
+    right: 1rem;
+    
+}
+.fa-heart.card-icon-wishlist {
     color: var(--primary-color-secondary);
 }
+
 .product-card-text-container {
     text-align: center;
     padding: 1rem 0;
