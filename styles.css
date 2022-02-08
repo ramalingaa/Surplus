@@ -51,6 +51,8 @@ a {
 .nav-logo {
     padding: 0 0.5rem 0 0;
 }
+
+
 .home-card-container {
     width: 80%;
     margin: auto;
@@ -98,4 +100,48 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+/* media quaries starts here */
+
+@media screen and (max-width: 1177px){
+    .i-text {
+        
+        width: 25rem
+    }
+    .cat-card-img {
+        height: 12rem;
+    }
+    .text-large {
+        font-size: 1.5rem;
+        line-height:2.25rem
+    }
+}
+
+@media screen and (max-width: 1097px){
+    .text-medium {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        font-weight: 700;
+    }
+    .new-arrival-card {
+        gap: 1.5rem;
+        padding: 1rem;
+    
+    }
+}
+@media screen and (max-width: 1177px){
+    .i-text {
+        width: 21rem
+    }
+    .cat-card-img {
+        height: 11rem;
+    }
+    .text-large {
+        font-size: 1.5rem;
+        line-height:2rem
+    }
+    .home-wall-img {
+        width: 60%;
+    }
 }
