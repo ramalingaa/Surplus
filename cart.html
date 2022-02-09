@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://ragaui.netlify.app/Components.css" />
+    <link rel="stylesheet" href="cart.css" />
+    <title>Surplus</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar ">
+            <div class="navbar-logo">
+                <i class="fas fa-meteor nav-logo"></i>
+                <h2>Surplus</h2>
+            </div>
+            <div class="navbar-search">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" class="i-text" placeholder="Search for products, brands and more"/>
+            </div>
+            <div class="navbar-cart">
+                <button class="btn primary">Login</button>
+                    <a href="#"><i class="far fa-heart nav-icon"></i> Wishlist</a>
+                    <a href="#"><i class="fas fa-cart-plus nav-icon"></i> Cart</a>
+                
+            </div>
+        </nav>
+    </header>
+    <main class="cart-section-container">
+        <p class="cart-section-title text-medium fw-6">MY CART(<span>2</span>)</p>
+        <div class="cart-management-main">
+            <section class="cart-product-card-container">
+                <div class="cart-product-card-img-container">
+                    <img src="Product/1-removebg-preview.png" alt="product image" class="res-img"/>
+                </div>
+                <div class="cart-product-card-text-container">
+                    <p class="text-medium">Mens Premium Jacket</p>
+                    <p class="text-medium fw-7">₹2000 <span class="price-cutoff">₹3999</span></p>
+                    <p class="text-normaal offer-text">50% off</p>
+                    <div class="cart-quantity">
+                        <span>Quantity:</span> 
+                        <div class="cart-quantity-btn-container">
+                            <button class="btn-quantity"><i class="fas fa-minus"></i></button>
+                            <span class="cart-quantity-text">1</span>
+                            <button class="btn-quantity"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <button class="btn remove-cart">Remove from cart</button>
+                    <button class="btn wishlist">Move to Wishlist</button>
+    
+                </div>
+            </section>
+            <section class="cartcheckout-section">
+                <p class="text-medium fw-6 price-details-title">PRICE DETAILS</p>
+                <div class="text-medium price-details-flex">
+                    <P>Price( <span>2</span> items)</P>
+                    <p>₹4999</p>
+                </div>
+                <div class="text-medium price-details-flex">
+                    <P>Discount</P>
+                    <p>- ₹1999</p>
+                </div>
+                <div class="text-medium price-details-flex">
+                    <P>Delivery Charges</P>
+                    <p>₹499</p>
+                </div>
+                <div class="text-medium price-details-flex fw-6 total-amount-title">
+                    <P>TOTAL AMOUNT</P>
+                    <p>₹3499</p>
+                </div>
+                <P class="text-normal">You will save ₹1999 on this order</P>
+                <button class="btn primary">Place Order</button>
+            </section>
+        </div>
+
+    </main>
+</body>
