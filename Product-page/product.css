@@ -1,67 +1,8 @@
-:root {
-    --card-background-color: rgb(236, 236, 236);
-    --white-color: white;
-    --black-color: black;
-}
-/* nav bar css starts from here */
-
-.navbar {
-    width: 85%;
-    margin: auto;
-    background-color: transparent;
-    align-items: center;
-    position: relative;
-}
-
-.navbar-logo {
-    display: flex;
-    align-items: baseline;
-    color: var(--primary-color-main);
-}
-.navbar-search {
-    position: relative;
-
-}
-.navbar-cart {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-
-}
-.i-text {
-    padding: 0.5rem 0 0.5rem 3rem;
-    border-radius: 0.31rem;
-    width: 31rem;
-}
-.search-icon {
-    position: absolute;
-    top: 30%;
-    left: 1rem;
-    color: inherit;
-}
-.nav-icon {
-    font-size: 1.5rem;
-    padding: 0 0.3rem;
-    cursor: pointer;
-}
-.btn {
-    padding: 0.5rem 1rem;
-    background-color: var(--primary-color-main);
-}
-.nav-logo {
-    padding: 0 0.5rem 0 0;
-}
-
-/* nav bar css ends here */
 
 .product-filter-section {
     max-width: 20rem;
     height:100vh;
-    padding: 1rem 1rem 1rem 2rem;
+    padding: 2rem 1rem 1rem 2rem;
 }
 .product-filter-heading {
     display: flex;

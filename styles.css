@@ -1,12 +1,23 @@
 body {
     padding: 0 0 3rem 0;
 }
+:root {
+    --card-background-color: rgb(236, 236, 236);
+    --white-color: white;
+    --black-color: black;
+    --price-cutoff-color: #9A9A9A;
+    --primary-color-secondary : #F93D7D;
+    --primary-color-ternary : #fda900;
+}
 .navbar {
-    width: 85%;
+    width: 80%;
     margin: auto;
     background-color: transparent;
     align-items: center;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
 }
 
 .navbar-logo {
@@ -50,6 +61,7 @@ a {
 }
 .nav-logo {
     padding: 0 0.5rem 0 0;
+    font-size: 1.5rem;
 }
 
 
