@@ -134,10 +134,7 @@ a {
 
 
 @media only screen and (min-width: 350px) {
-    .i-text  {
-        display: none;
-    }
-    .search-icon {
+    .navbar-search {
         display: none;
     }
     .nav-logo {
@@ -270,13 +267,11 @@ a {
         gap: 1rem
 
     }
-    .i-text {
+    .navbar-search {
         display: block;
         
     }
-    .search-icon {
-        display: block;
-    }
+    
     .home-card-container {
         width: 85%;
     }
@@ -303,12 +298,7 @@ a {
         flex-direction: row;
 
     }
-    .i-text {
-        display: block;
-    }
-    .search-icon {
-        display: block;
-    }
+   
     .new-arrival-card {
         width: 50%;
     }
