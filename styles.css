@@ -285,6 +285,11 @@ a {
 
     .cat-card-img {
         height: 15rem;
+        width: 100%;
+        border-radius: 0;
+    }
+    .arrival-image {
+        height: 15rem;
         width: 50%;
         border-radius: 0;
     }
@@ -318,5 +323,11 @@ a {
     }
     .home-text-container {
         order: 0;
+    }
+    .navbar {
+        width: 80%;
+    }
+    .home-card-container {
+        width: 80%;
     }
 }
