@@ -6,7 +6,12 @@ Surplus is an online clothing store which sells wide category of clothing items 
 ## Live Demonstration
 
 
-[The Surplus Store can be viewed here](https://ragaui.netlify.app/getting_started/intro.html)
+[The Surplus Store can be viewed here](https://surplus-store.netlify.app/)
+
+## Libraries used
+
+
+[RAGA UI](https://ragaui.netlify.app/)
 
 
 ## Screenshots
@@ -25,6 +30,12 @@ Authentication Page
 Cart Page
 
 ![App Screenshot](https://i.ibb.co/pZrn184/screencapture-surplus-store-netlify-app-cart-page-cart-2022-02-18-10-11-52.png)
+
+
+## Tech stack used
+
+- HTML
+- CSS
 
 
 ## Authors
